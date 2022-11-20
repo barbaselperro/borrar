@@ -3,7 +3,7 @@ name: deploy
 jobs
   deploy:
     name: Despliegue en cluster
-    runs-on: ubunut-latest
+    runs-on: ubuntu-latest
     steps:
     -  uses: actions/checkout@master
     -  name: Build And Push to Dcoker
