@@ -8,7 +8,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build: NodeJsg
+  build:
 
     runs-on: self-hosted Linux X64
 
