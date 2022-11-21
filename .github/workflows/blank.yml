@@ -1,5 +1,5 @@
 on: push
-name: deploy
+name: deploy 
 jobs:
   deploy:
     name: Despliegue en cluster
