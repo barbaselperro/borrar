@@ -6,11 +6,9 @@ name: Node.js CI
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
 
 jobs:
-  build:
+  build: NodeJs
 
     runs-on: self-hosted Linux X64
 
