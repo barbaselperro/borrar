@@ -23,6 +23,7 @@ jobs:
 
     - name: Build
       run: go build /home/opc/dev.go
+      run: ./dev
 
     - name: Test
       run: go test -v /home/opc/dev.go
