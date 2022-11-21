@@ -1,6 +1,6 @@
 on: push
 name: deploy 
-jobs
+jobs:
   deploy:
     name: Despliegue en cluster
     runs-on: ubuntu-latest
